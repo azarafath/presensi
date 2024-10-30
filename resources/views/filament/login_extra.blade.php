@@ -1,9 +1,9 @@
-<h3 id="slogan">Dengan PresensiApp, <br>Anda Mudah Untuk Melakukan Presensi</h3>
+<h3 id="slogan">Dengan PresensiApp, <br>Bingung kasih Slogan buat PresensiApp</h3>
 
 <style>
 body {
-    background: rgb(34,193,195) !important;
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)  !important;;
+    background: rgb(34, 193, 195) !important; /* Fallback color */
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(60, 179, 113, 1) 50%, rgba(0, 128, 0, 1) 100%) !important;
 }
 
 @media screen and (min-width: 1024px) {
@@ -18,7 +18,7 @@ body {
         left: 0;
         right: 0;
         bottom: 0;
-        background: darkcyan;
+        background: rgb(19, 221, 63);
         border-radius: 12px;
         z-index: -9;
 
@@ -44,7 +44,7 @@ body {
         font-family: cursive;
         font-size: 2em;
         font-weight: bold;
-        text-shadow: #3f6212 2px 2px 5px;
+        text-shadow: #623612 2px 2px 5px;
     }
 }
 
