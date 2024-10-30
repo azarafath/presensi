@@ -13,6 +13,7 @@ class Schedule extends Model
         'user_id',
         'office_id',
         'shift_id',
+        'is_wfa',
     ];
 
     public function user(): \Illuminate\Database\Eloquent\Relations\BelongsTo

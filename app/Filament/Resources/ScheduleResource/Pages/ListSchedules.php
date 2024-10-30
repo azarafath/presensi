@@ -4,6 +4,7 @@ namespace App\Filament\Resources\ScheduleResource\Pages;
 
 use App\Filament\Resources\ScheduleResource;
 use Filament\Actions;
+use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
 
 class ListSchedules extends ListRecords
@@ -13,6 +14,10 @@ class ListSchedules extends ListRecords
     protected function getHeaderActions(): array
     {
         return [
+            Action::make('presensi')
+                ->label('Presensi')
+                ->url(route('presensi'))
+                ->color('success'),
             Actions\CreateAction::make(),
         ];
     }
